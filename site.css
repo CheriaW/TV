@@ -1,0 +1,253 @@
+﻿body {
+  
+}
+
+/*NAVBAR*/
+nav#navvy.navbar.navbar-static-top {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: darkslateblue;
+}
+/*nav bar buttons*/
+#navvy a{
+    color: #FFF6F0;
+
+}
+#navvy a:hover{
+    background: none;
+}
+
+/*********************************************/
+
+/*BUTTON*/
+
+button.navbar-toggle{
+    border: 1px, solid, white;
+
+}
+span.icon-bar{
+    border: 1px, solid, white;
+}
+
+/*HEADER*/
+div.page-header{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-family: Arial;
+    padding-top: 100px;
+    text-align: center; 
+}
+div#map {
+         padding-left: -40px;
+         padding-right: -40px;
+       margin-left: -39px;
+      
+       background-size: cover;
+       height: 372px;
+    
+
+    background-image: url('Versilia muck map.jpg');
+   
+}
+
+
+
+/*Location Intro*/
+div#locationSec.row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color:darkslateblue;
+    Color: white;
+}
+/*locations and images*/
+div.row.container.location1{
+    margin-top:35px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom:35px;
+    height:200px;
+    padding-bottom:0;
+    padding-left:60px;
+    padding-right:0px;
+    padding-top:0px;  
+}
+img#loc1Img {
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+.location1 h2{
+    line-height:45px;
+    font-size:20px;
+}
+.location1 p{
+    font-size:12px;   
+}
+/********************************************************************/
+div.row.container-fluid.location2{
+    background-color: darkslateblue;
+    color: white;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom:0px;
+    height:200px;
+    padding-bottom:50px;
+    padding-left:0px;
+    padding-right:175px;
+    padding-top:0px; 
+       
+}
+div.location2.button{
+    color: black;
+}
+img#loc2Img {
+    width: 300px;
+    height: 200px;   
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.location2 h2{
+    line-height:45px;
+    font-size: 20px;
+}
+.location2 p{
+    font-size:12px;
+}
+/********************************************************************/
+div.row.container.location3{
+    margin-top:35px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom:35px;
+    height:200px;
+    padding-bottom:0;
+    padding-left:60px;
+    padding-right:0px;
+    padding-top:0px;  
+}
+img#loc3Img {
+    width: 300px;
+    height: 200px; 
+    float: right;  
+}
+.location3 h2{
+    line-height: 45px;
+    font-size: 20px;
+}
+.location3 p{
+    font-size:12px;
+}
+/********************************************************************/
+/*amenities*/
+div#amenitiesSec.row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color:darkslateblue;
+    Color: white;
+}
+
+/*grid section*/
+div#noPic{
+    height:400px;
+    text-align: center;
+    padding-top: 170px;
+}
+div#Pic1 {
+    background-image: url('Outside pool at night.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+div#Pic1 h2{
+    background-color: gray;
+}
+div#Pic2 {
+    background-image: url('Outdoor pool day.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+div#Pic2 h2{
+    background-color:gray;
+}
+div#Pic3 {
+    background-image: url('Tan hotel room.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+div#Pic3 h2{
+    background-color: gray;
+}
+div#Pic4 {
+    background-image: url('Outdoor Patio.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+div#Pic4 h2{
+    background-color:gray;
+}
+div#Pic5 {
+    background-image: url('basic patio.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+div#Pic5 h2{
+    background-color:gray;
+}
+/*REVIEW SECTION*/
+div#reviewSec.row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color:darkslateblue;
+    Color: white;
+}
+div#myCarousel{
+    text-align:center;
+}
+div#contactSec.row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color:darkslateblue;
+    Color: white;
+}
+/*end*/
+div#end.row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color:darkslateblue;
+    Color: white;
+}
+.button{
+    background-color: darkslateblue;
+    color: black;
+}

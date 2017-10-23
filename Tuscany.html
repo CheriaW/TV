@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="site.css" rel="stylesheet" />
+</head>
+<body>
+    <!--NAVBAR--><!--come back... make it horizontal-->
+        <nav class="navbar navbar-static-top" id="navvy">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar" href="#">Logo</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <!--allows it to hamburger when the window is smaller-->
+                    <ul class="nav navbar-nav" style="float: right">
+                        <li class="locations"><a href="#">Locations</a></li>
+                        <li class="amenities"><a href="#">Amenities</a></li>
+                        <li class="reviews"><a href="#">Reviews</a></li>
+                        <li class="contact"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <!--homepage...?-->
+        <div class="row">
+            <div class="jumbotron-mainSec">
+                <div class="col-md-9"><img src="outdoor pool sunset.jpg" /></div>
+            </div>
+            <div class="col-md-3" id="map"><img src="Versilia muck map.jpg" /></div>
+        </div>
+        <div class="page-header">
+            <h1>Tuscany Villa</h1>
+            <h5>We specialize in relaxation<small></small></h5>
+        </div>
+
+
+
+
+
+
+        <!--location bar-->
+        <div class="row" id="locationSec">
+            <div class="container">
+                <h2>Locations</h2>
+                <h3>Some places for you to go</h3>
+            </div>
+        </div>
+        <!--locations 1-3-->
+        <div class="row container location1">
+            <div class="col-md-8 col-sm-4" id="loc1">
+                <h2>Location #1</h2>
+                <br />
+                <p>Stay with us just so you can tell your friends you climbed some tall mountains. You don't really have to climb them... There's a heated elevator with a luggage cart and everything. But your friends don't know that. Lie and tell them you did something really awesome and amazing. We won't tell anyone its a lie. We promise.</p>
+                <button>Reserve Now!</button>
+            </div>
+            <div class="col-md-4 col-sm-2" id="loc1Img">
+                <img src="italy mountain villa.jpeg" id="loc1Img" >
+            </div>
+        </div>
+
+        <div class="row container-fluid location2">
+            <div class="col-md-4 col-sm-2" id="loc2Img">
+                <img src="isolated room.jpeg" id="loc2Img" />
+            </div>
+            <div class="col-md-8 col-sm-4" id="loc2">
+                <h2>Location #2</h2>
+                <br />
+                <p>This room is perfect for when you want to travel but still want to be as far away from other people as possible. Our hotel owner lives in this room when it's not being rented out to a guest. And when it is being rented out by a guest the owner somes by dressed as a scarecrow to scare them into leaving sooner so they can sleep in the room again.</p>
+                <button>Check It Out!</button>
+            </div>
+            
+        </div>
+
+        <div class="row container location3">
+            <div class="col-md-8 col-sm-4 " id="loc3">
+                <h2>Location #3</h2>
+                <br />
+                <p>Grapes. Grapes literally everywhere. If you like grapes then you'll love our villa because we only have grapes. Our hotel is made of grapes. Grapes. (sponsered by grapes)</p>
+                <button>Join Us!</button>
+            </div>
+            <div class="col-md-4 col-sm-2" id="loc3Img">
+                <img src="grape vine.jpeg" id="loc3Img" />
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!--amenities section-->
+
+        <div class="row" id="amenitiesSec">
+            <div class="container">
+                <h2>Amenities</h2>
+                <p>Some stuff for you to enjoy</p>
+            </div>
+        </div>
+
+
+        <!--grid-->
+        <div class="container">
+            <div class="row" id="grid">
+                <div class="col-sm-3 col-md-4" id="Pic1">
+                    <h2>Receptions</h2>
+                </div>
+                <div class="col-sm-3 col-md-4" id="noPic">
+                    <h2>A Villa for every Occassion</h2>
+                    <p>We don't actually have a villa for every occassion... We just say that to make people interested. Sorry bud...</p>
+                </div>
+                <div class="col-sm-3 col-md-4" id="Pic2">
+                    <h2>Relax by the Pool</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-md-4" id="noPic">
+                    <h2>What sets us Apart</h2>
+                    <p>We're really good at finding pictures on the internet of pretty places instead of having an actual pretty place to take pictures of.</p>
+                </div>
+                <div class="col-sm-3 col-md-4" id="Pic3">
+                    <h2>Feels Like Home</h2>
+                </div>
+                <div class="col-sm-3 col-md-4" id="noPic">
+                    <h2>Talk to Staff</h2>
+                    <p>Our staff is actually made up of scarecrows with pictures of celebrites taped to the heads... for your enjoyment, of course. They con't get a lot of work done but boy are they pretty.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-md-4" id="Pic4">
+                    <h2>Enjoying the views</h2>
+                </div>
+                <div class="col-sm-3 col-md-4" id="noPic">
+                    <h2>Book your Villa!</h2>
+                    <p>We suggest you book online because if you try to call the phone will just ring forever because our staff aren't alive right now to answer your call.</p>
+                </div>
+                <div class="col-sm-3 col-md-4" id="Pic5">
+                    <h2>Private Dining</h2>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!--review section-->
+        <div class="row" id="reviewSec">
+            <div class="container">
+                <h2>Reviews</h2>
+                <p>What our customers are saying</p>
+            </div>
+        </div>
+        <!--carousel bit-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!--Wrapper for slides-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <h3>"I LOVE IT!"</h3>
+                    <p>Sara, avid napper</p>
+                </div>
+                <div class="item">
+                    <h3>"There's no food here and the nearest store is 50 miles away..."</h3>
+                    <p>Deshawn, starving traveler</p>
+                </div>
+                <div class="item">
+                    <h3>"I think the scarecrow at the front desk is staring at me..."</h3>
+                    <p>Davi, paranoiac</p>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <!--Contact section-->
+        <div class="row" id="contactSec">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Our scarecrows have the answers</p>
+            </div>
+        </div>
+
+        <div id="smallContactSec">
+            
+            <div class="col-md-6">
+            <p>Contact us and we'll get back to you within 24hrs.</p>
+            <br />
+            <div class="map marker" role="alert">
+                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span>
+                Cleveland, OH
+            </div>
+            <br />
+            <div class="mobile" role="alert">
+                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span>
+                555-867-5309
+            </div>
+            <br />
+            <div class="email" role="alert">
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span>
+                tuscanyscarecrow@fakeemail.com
+            </div>
+        </div>
+
+
+        <!--textbox, send us comments-->
+        <div class="row">
+            <div class="col-sm-3 col-md-3 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-3 col-md-3 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="6"></textarea><br>
+        <div class="row">
+            <div class="col-sm-3 col-md-6 form-group">
+                <button class="btn btn-default pull-right" type="submit">Submit</button>
+            </div>
+        </div>
+   </div>
+
+    <!--end-->
+    <div class="row" id="end">
+        <div class="container">
+            <p>Created by: Cheria White</p>
+            <p>Totally Copywritten</p>
+        </div>
+    </div>
+</body>
+</html>
